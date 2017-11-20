@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: pets-client
+  cloud:
+    consul:
+      ribbon:
+        enabled: true
+
+pet-service:
+  ribbon:
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.BestAvailableRule
+
+server:
+  port: 8888
