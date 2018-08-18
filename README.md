@@ -1,7 +1,13 @@
 # Client side load balancing using Ribbon and Feign
 
-This demo project is used to demonstrate a client side load balancing setup using Netflix's Ribbon along with Feign. Tools used in this demonstation include:
+Java Development Guild Presentation    
+November 20th, 2017   
+Justin Shuck, Software Developer - CDK Global     
+   
+This demo project is used to demonstrate a client side load balancing setup using Netflix's Ribbon along with Feign.
 
+
+Tools used in this demonstration include:
 - Ribbon
 - Feign
 - Consul
@@ -38,4 +44,4 @@ The demo is about a pet service that stores basic information about a pet (speci
 
 
 #### Changing routes:
-Change load balancing rules in `application.yml` in the **pets-client** project. For routing configurations see[Ribbon configurations](https://github.com/Netflix/ribbon/wiki/Working-with-load-balancers) 
+Change load balancing rules in `application.yml` in the **pets-client** project. For routing configurations see[Ribbon configurations](https://github.com/Netflix/ribbon/wiki/Working-with-load-balancers)
